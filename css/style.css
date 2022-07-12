@@ -1,0 +1,338 @@
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.header{
+    background-color: #213b52;
+    height: 60px;
+    padding-bottom: 20px;
+
+}
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper .header-logo{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.header-wrapper .header-logo span{
+    color: yellow;
+}
+.header-navigation ul li a{
+    text-decoration: none;
+    color: #adc7de;
+    font-family: "poppins", sans-serif;
+}
+.header-navigation ul li a:hover{
+    width: 100%;
+    color: white;
+}
+.get-s{
+    border-radius: 10px;
+    color: white;
+    border: 2px solid yellow;
+    padding: 3px 10px 3px 10px;
+    background-color: #213b52;
+}
+.get-s:hover{
+    background: yellow;
+}
+.nav-items{
+    display: inline;
+    padding: 15px;
+}
+.banner{
+    background-color: #213b52;
+    height: 90vh;
+    align-items: center;
+    padding-top: 10px;
+}
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 50%;
+    font-family: "poppins", sans-serif;
+    color: white;
+}
+.banner-content .head{
+    font-size: 45px;
+    color: #adc7de;
+}
+.banner-content .para{
+    font-size: 20px;
+    color: #adc7de;
+}
+.banner-content .gets{
+    color: #213b52;
+    border-radius: 50px;
+    border: 2px solid yellow;
+    background: yellow;
+    font-size: 20px;
+    padding: 6px 15px 6px 15px;
+}
+.banner-content .gets:hover{
+    background: transparent;
+    color: white;
+}
+.banner-image-area{
+    width: 50%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.banner-image{
+    width: 100%;
+    float: right;
+}
+.clients{
+    background-color: white;
+    padding: 0;
+}
+.clients-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    
+}
+.clients-wrapper .cli-img{
+    height: auto;
+    width: 100px;
+}
+.about{
+    background-color: whitesmoke;
+    padding: 35px 0px 35px 0px;
+}
+.about-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-container{
+    text-align: left;
+    width: 54%;
+}
+.about-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-text{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #213b52;
+}
+.abt-h{
+    font-size: 30px;
+}
+.about-box{
+    color: black;
+    text-align: left;
+
+}
+.box{
+    text-decoration: none;
+    color: #213b52;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.box:hover{
+    color: yellow;
+    
+
+}
+.about-img{
+    width: 43%
+}
+.about-img .ab-img{
+    width: 100%;
+    height: 400px;
+}
+.service{
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+.service-text{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #213b52;
+}
+.hs{
+    font-size: 28px;
+    color: #213b52;
+}
+.service-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-card .card1{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(/images/services-1.jpg);
+    
+}
+.service-card .card2{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(/images/services-2.jpg);
+}
+.service-card .card3{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(/images/services-3.jpg);
+}
+.service-card .card4{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+    width: 400px;
+    height: 250px;
+    background-image: url(/images/services-4.jpg);
+}
+.c1{
+    text-decoration: none;
+    color: #213b52;
+}
+.c1:hover{
+    color: yellow;
+}
+.c2{
+    text-decoration: none;
+    color: #213b52;
+}
+.c2:hover{
+    color: yellow;
+}
+.c3{
+    text-decoration: none;
+    color: #213b52;
+}
+.c3:hover{
+    color: yellow;
+}
+.c4{
+    text-decoration: none;
+    color: #213b52;
+}
+.c4:hover{
+    color: yellow;
+}
+hr{
+    color: yellow;
+    border: 2px solid yellow;
+    width: 60px;
+    text-align: center;
+}
+.features{
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+.features-text{
+    color: #213b52;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.features-text p b{
+    font-size: 25px;
+}
+.f-con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-img1{
+    width: 40%;
+    padding-bottom: 15px;
+}
+.con1-txt{
+    width: 57%;
+    color: #213b52;
+}
+.con1-txt p b{
+    font-size: 25px;
+}
+.f-con2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con2-txt{
+    width: 57%;
+    color: #213b52;
+}
+.con2-txt p b{
+    font-size: 25px;
+}
+.f-img2{
+    width: 40%;
+    padding-bottom: 20px;
+}
+.f-con3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.f-img3{
+    width: 40%;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.con3-txt{
+    width: 57%;
+    color: #213b52;
+}
+.con3-txt p b{
+    font-size: 25px;
+}
+.f-con4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.con4-txt{
+    width: 57%;
+    color: #213b52;
+}
+.con4-txt p b{
+    font-size: 25px;
+}
+.f-img4{
+    width: 40%;
+    padding-top: 20px;
+}
