@@ -336,3 +336,66 @@ hr{
     width: 40%;
     padding-top: 20px;
 }
+.port-text{
+    text-align: center;
+    color: #213b52;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 25px;
+}
+.port-text p b{
+    font-size: 25px;
+}
+.port-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navp-items{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #213b52;
+}
+.navp-items:hover{
+    color: yellow;
+}
+.img-cards{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.img-cards .i{
+    width: 350px;
+    height: 250px;
+    margin: 10px 0px 7px 12px;
+    border-radius: 12px;
+}
+.team{
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+}
+.team-text{
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   color: #213b52;
+   padding-bottom: 20px;
+   padding-top: 15px;
+}
+.team-text p b{
+    font-size: 25px;
+}
+.team-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.t-i{
+    width: 250px;
+    height: 270px;
+}
