@@ -22,7 +22,7 @@
     font-family: "Poppins", sans-serif;
 }
 .header-wrapper .header-logo span{
-    color: yellow;
+    color: #fcc133;
 }
 .header-navigation ul li a{
     text-decoration: none;
@@ -36,12 +36,12 @@
 .get-s{
     border-radius: 10px;
     color: white;
-    border: 2px solid yellow;
+    border: 2px solid #fcc133;
     padding: 3px 10px 3px 10px;
     background-color: #213b52;
 }
 .get-s:hover{
-    background: yellow;
+    background: #fcc133;
 }
 .nav-items{
     display: inline;
@@ -74,8 +74,8 @@
 .banner-content .gets{
     color: #213b52;
     border-radius: 50px;
-    border: 2px solid yellow;
-    background: yellow;
+    border: 2px solid #fcc133;
+    background: #fcc133;
     font-size: 20px;
     padding: 6px 15px 6px 15px;
 }
@@ -89,7 +89,7 @@
     padding-bottom: 20px;
 }
 .banner-image{
-    width: 100%;
+    width: 93%;
     float: right;
 }
 .clients{
@@ -145,7 +145,7 @@
     font-family: "Poppins", sans-serif;
 }
 .box:hover{
-    color: yellow;
+    color: #fcc133;
     
 
 }
@@ -225,32 +225,32 @@
     color: #213b52;
 }
 .c1:hover{
-    color: yellow;
+    color: #fcc133;
 }
 .c2{
     text-decoration: none;
     color: #213b52;
 }
 .c2:hover{
-    color: yellow;
+    color: #fcc133;
 }
 .c3{
     text-decoration: none;
     color: #213b52;
 }
 .c3:hover{
-    color: yellow;
+    color: #fcc133;
 }
 .c4{
     text-decoration: none;
     color: #213b52;
 }
 .c4:hover{
-    color: yellow;
+    color: #fcc133;
 }
 hr{
-    color: yellow;
-    border: 2px solid yellow;
+    color: #fcc133;
+    border: 2px solid #fcc133;
     width: 60px;
     text-align: center;
 }
@@ -347,18 +347,21 @@ hr{
     font-size: 25px;
 }
 .port-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    text-align: center;
+    word-spacing: 25px;
+    padding-top: 10px;
 }
 .navp-items{
+    display: inline;
+}
+.port-nav ul li a{
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: #213b52;
 }
-.navp-items:hover{
-    color: yellow;
+.port-nav ul li a:hover{
+    color: #fcc133;
 }
 .img-cards{
     display: inline-block;
@@ -398,4 +401,208 @@ hr{
 .t-i{
     width: 250px;
     height: 270px;
+}
+.pricing{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pricing-txt{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   color: #213b52;
+   padding-bottom: 20px;
+   padding-top: 15px;
+}
+.pricing-txt p b{
+    font-size: 25px;
+}
+.pricing-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.p-box1{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: #f4f8fb;
+    
+}
+.p-box2{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 400px;
+    border: 2px;
+    border-color:#fcc133;
+    border-style: solid;
+    background-color: #f4f8fb;
+}
+.p-box3{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: #f4f8fb;
+}
+.pb-list{
+    text-align: left;
+    
+}
+.get-s1{
+    border-radius: 12px;
+    background-color: #213b52;
+    color: white;
+    width: 120px;
+    padding: 3px 10px 3px 10px;
+    margin-left: 25%;
+}
+.get-s1:hover{   
+    background-color: #fcc133;
+    
+}
+.contact{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #f4f8fb;
+}
+.contact-txt{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   color: #213b52;
+   padding-bottom: 20px;
+   padding-top: 15px;
+}
+.contact-txt p b{
+    font-size: 25px;
+}
+.cont-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.c-box1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.c-card1{
+    width : 500px;
+    height: 170px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+.c-card2{
+    width: 230px;
+    height: 170px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+.c-box2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+.c-box2 .form-1{
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    margin: 0px 10px 20px 0px
+}
+.c-box2 .form-2{
+    width: 250px;
+    height: 40px;
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+}
+.c-box2 .form-3{
+    width: 520px;
+    height: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.c-box2 .form-4{
+    width: 520px;
+    height: 140px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.c-box2 .sub{
+    width: 150px;
+    height: 45px;
+    background-color: #fcc133;
+    border: none;
+    color: white;
+    font-size: 15px;
+
+}
+.c-box2 .sub:hover{
+    background-color: #fcc170;
+    
+}
+.footer{
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-image: url(/images/footer-bg.jpg);
+}
+.footer-txt{
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   color: white;
+   padding-bottom: 20px;
+   padding-top: 15px;
+}
+.footer-txt p b{
+    font-size: 27px;
+} 
+.email-div{
+    text-align: center;
+}
+.email{
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 15px;
+}
+.submit{
+    height: 40px;
+    background-color: #fcc170;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    color: white;
+}
+.submit:hover{
+    background-color: #fcc133;
+}
+.footer-bottom{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.footer-bottom span{
+    color: #fcc133;
 }
